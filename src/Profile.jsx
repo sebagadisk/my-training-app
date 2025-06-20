@@ -5,6 +5,7 @@ function Profile(props) {
          <p>Name: {props.name}</p>
          <p>Age: {props.age}</p>
          <p>Address: {props.address}</p>
+         <p>Logout</p>
       </div>
    );
 }
