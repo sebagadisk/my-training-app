@@ -1,6 +1,6 @@
 function Greeting(props) {
     // const name = 'Liza';
-  return <h1>Hello, {props.name}!</h1>;
+  return <h1>habari yako, {props.name}!</h1>;
 }
 
 export default Greeting;
