@@ -3,12 +3,18 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Greeting from './Greeting'
+import ColorButton from './colorbutton'
+import './colorbutton.css'
 
 function App() {
   const [count, setCount] = useState(0)
  const name = 'Liz';
   return (
     <>
+     <div style={{ textAlign: 'center', marginTop: '50px' }}>
+      <h1>My Color Button</h1>
+      <ColorButton />
+    </div>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
